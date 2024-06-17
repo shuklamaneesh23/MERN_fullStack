@@ -84,7 +84,7 @@ function Drawer() {
           ...prevUser,
           avatar: response.data.data.avatar,
         }));
-        console.log("Avatar uploaded successfully:", response.data.data.avatar);
+        console.log("Avatar uploaded successfully!");
       } else {
         console.error("Unexpected response structure:", response);
       }
